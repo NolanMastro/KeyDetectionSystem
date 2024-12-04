@@ -12,7 +12,7 @@ def imageToText(path):
 
     return pytesseract.image_to_string(image, lang='eng', config='--psm 6')
 
-#cv2.waitKey()
+
     
 
 
