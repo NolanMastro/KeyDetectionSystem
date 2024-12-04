@@ -7,7 +7,7 @@ import time
 
 
 def checkKey(key):
-    cam = cv2.VideoCapture(0)
+    cam = cv2.VideoCapture(0)   
     if not cam.isOpened():
         raise Exception("Camera not accessible")
 
